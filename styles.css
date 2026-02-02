@@ -97,7 +97,7 @@ li {
   visibility: visible;
   opacity: 1;
 }
-.menu--opem {
+.menu--open {
     max-height: 100vh;
     overflow-y: hidden;
 }
@@ -106,7 +106,7 @@ li {
   flex-direction: column;
   align-items: center;
 }
-.menu__lost {
+.menu__list {
   padding: 32px 0;
 }
 .menu__link {
@@ -335,7 +335,7 @@ footer {
 
 
 /* SMALL PHONE, TABLETS, LARGE SMARTPHONES */
-@media (max-wdith: 768px) {
+@media (max-width: 768px) {
 .header__description {
     padding: 0 24px;
 }
@@ -357,7 +357,7 @@ button {
 /* SMALL PHONES, LARGE SMARTPHONES */
 @media (max-width: 550px) {
   .nav__links {
-    display: block;
+    display: none;
   }
 
   .btn__menu {
@@ -370,9 +370,6 @@ button {
   .highlight:not(:last-child) {
    margin-bottom: 24px;
    }
-}
-.nav__links--links {
-    font-size: 40px
 }
 
 
